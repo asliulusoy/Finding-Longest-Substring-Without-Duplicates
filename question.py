@@ -33,8 +33,9 @@ def run_tests():
     test_cases = [
         ("bbbbb", "b"),
         #("", ""),
-        ("abcdefg", "abcdefg"),
-        ("aab", "ab"),
+        ("ABBCDDEFGHII", "DEFGHI"),
+        #("AABBCCD", "AB" or "BC" or "CD")
+        ("ABCD", "ABCD"),
         ("dvdf", "vdf"),
     ]
     
