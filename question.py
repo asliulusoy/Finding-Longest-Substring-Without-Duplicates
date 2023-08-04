@@ -8,7 +8,6 @@ import math
 def longest_substring(str):
            
     test_string="" #an empty character string named test_string is created. we'll use this string to store temporary substrings during the process.
-    max_length = 0 #this variable will store the length of the longest unique substring we obtain.
      
     #finding the lenght of the input string;
     if (len(str) == 0):
@@ -28,7 +27,6 @@ def longest_substring(str):
             #if it's been seen, the test_string is updated starting from the position immediately after the last occurrence of the temp substring. 
             #this helps us remove previous unique substrings and create a new unique substring.
         test_string = test_string + "".join(i) #next, the temp substring is added to the test_string, thus updating the test_string to include a new unique substring.
-        max_length = len(test_string)
     return test_string
  
 def run_tests():
