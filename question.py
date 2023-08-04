@@ -1,6 +1,6 @@
 '''
 The purpose of the function named "longestSubstring" is to find the
-longest sub-string in a string that does not contain any duplicate.
+longest sub-string in a string that does not contain any duplicate. 
 '''
 import math
 
