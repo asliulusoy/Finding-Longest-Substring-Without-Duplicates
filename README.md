@@ -1,8 +1,14 @@
 # Finding-Longest-Substring-Without-Duplicates
 
->Finding the longest substring in a script that does not have any duplicate characters in it
-
 This is a python script that reads a string from the command line and finds out the longest substring in it that doesn't contain any duplicate characters.
+
+## Usage
+
+1. Make sure to you have Python on your system.
+2. Open a terminal or command prompt in the directory where the `question.py` script is located.
+3. Run the command: $ python3 question.py
+4. Enter the string from the console.
+
 
 ## Examples
 ```
